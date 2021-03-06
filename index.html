@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlienLang</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="logo">
+        <img src="images/alienhead.jpg" alt="">
+        <label>Alien lang</label>
+    </div>
+
+
+    <div class="translatearea">
+        <div class="boxArea">
+        <div>
+            <label> Input Area </label>
+            <select name="langPicker" id="langPicker">
+            <option value="alphabetLang">Alphabet to Alien</option>
+            <option value="alienLang">Alien to Alphabet</option>
+        </select>
+        </div>
+        <textarea id="input" class="boxstyles"></textarea>
+        </div>
+        
+        <div class="boxArea">
+        <label>Output Area</label>
+        <textarea id="output" class="boxstyles"></textarea>
+        </div>
+        
+    </div>
+    <div id="translateButton">
+        <button id="translateBtnFire">Translate</button>
+    </div>
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
